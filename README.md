@@ -48,3 +48,8 @@ axis.text.x  = element_text(size=12),
 axis.text.y  = element_text(size=14))
 
 ```
+############ Subsetting a dataframe ##########################################
+```
+ef3=subset(snp, Effect ==3)
+> ef4=subset(snp, Effect ==4)
+```
